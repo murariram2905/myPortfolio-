@@ -1,0 +1,13 @@
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 2rem;
+  }
+  
+  .skill {
+    background-color: #1e90ff;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border-radius: 20px;
+  }
