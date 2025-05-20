@@ -1,59 +1,86 @@
-# MyPortfolio
+# 🌐 Personal Portfolio Website
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.5.
+Welcome to my **Angular-based portfolio website**! This project showcases my skills, experience, and personal/professional background in a sleek, responsive, and modern interface.
 
-## Development server
+---
 
-To start a local development server, run:
+category
+
+# 🙋‍♂️ About Me
+
+I’m a front-end developer passionate about building intuitive and visually engaging web applications. This portfolio reflects my journey, skills, and some of the projects I’m most proud of.
+
+Feel free to connect with me on LinkedIn or drop a message through the contact section!
+
+#📬 Contact
+
+If you'd like to collaborate or have any questions:
+
+📧 Email: your-email@example.com
+
+🌐 LinkedIn: linkedin.com/in/your-profile
+
+
+
+---
+
+## 📌 Features
+
+- 🧑 About Me section
+- 🛠️ Skills overview
+- 📁 Projects showcase
+- 📞 Contact form
+- 🧭 Angular Routing for seamless navigation
+- 📱 Responsive design for all screen sizes
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Description                     |
+|------------|---------------------------------|
+| Angular    | Front-end framework             |
+| TypeScript | Primary development language    |
+| HTML/CSS   | Markup & styling                |
+| Bootstrap  | Responsive layout and styling   |
+| Git & GitHub | Version control and collaboration |
+
+---
+
+## 📂 Project Structure
+
+src/
+├── app/
+│ ├── about/
+│ ├── skills/
+│ ├── projects/
+│ ├── contact/
+│ ├── navbar/
+│ └── app-routing.module.ts
+├── assets/
+│ └── images, icons, etc.
+└── index.html
+
+To run this project locally:
 
 ```bash
-ng serve
-```
+# Clone the repository
+git clone https://github.com/murariram2905/myPortfolio-.git
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+# Navigate into the project directory
+cd myPortfolio-
 
-## Code scaffolding
+# Install dependencies
+npm install
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+# Run the Angular development server
+ng serve --open
+💡 Future Improvements
+Add dark mode toggle
 
-```bash
-ng generate component component-name
-```
+Connect contact form to email service (e.g., Formspree/Firebase)
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+Improve project filtering by tech stack or category
 
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+📄 License
+This project is open-source and available under the MIT License.
