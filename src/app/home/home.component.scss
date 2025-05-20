@@ -1,6 +1,5 @@
 .hero {
-    text-align: center;
-    padding: 5rem 2rem;
+    padding: 3rem 2rem;
     background-color: #e6f2ff;
   }
   
@@ -16,4 +15,11 @@
     border-radius: 5px;
     text-decoration: none;
     margin-left: 5px;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  p {
+    margin: 0 0 8px;
   }

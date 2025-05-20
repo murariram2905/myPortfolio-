@@ -9,12 +9,14 @@ import { SkillsComponent } from './skills/skills.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ContactComponent } from './contact/contact.component';
 import { RouterModule, Routes } from '@angular/router';
+import { CertificationsComponent } from './certifications/certifications.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'about', component: AboutComponent },
   { path: 'skills', component: SkillsComponent },
   { path: 'projects', component: ProjectsComponent },
+  { path: 'certifications', component: CertificationsComponent },
   { path: 'contact', component: ContactComponent },
 ];
 
@@ -25,7 +27,8 @@ const routes: Routes = [
     AboutComponent,
     SkillsComponent,
     ProjectsComponent,
-    ContactComponent
+    ContactComponent,
+    CertificationsComponent
   ],
   imports: [
     [RouterModule.forRoot(routes)],
