@@ -20,7 +20,7 @@ If you'd like to collaborate or have any questions:
 
 🌐 LinkedIn: linkedin.com/in/your-profile
 
-🌍 https://rammurariportfolio.netlify.app/
+🌍 <a href="https://rammurariportfolio.netlify.app/" target="_blank">Live Deno</a>
 
 
 
