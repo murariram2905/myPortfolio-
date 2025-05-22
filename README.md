@@ -16,11 +16,11 @@ Feel free to connect with me on LinkedIn or drop a message through the contact s
 
 If you'd like to collaborate or have any questions:
 
-📧 Email: your-email@example.com
+📧 Email: murariram2905@gmail.com
 
-🌐 LinkedIn: linkedin.com/in/your-profile
+🌐 <a href="https://www.linkedin.com/in/murariram2905/">LinkedIn</a>
 
-🌍 <a href="https://rammurariportfolio.netlify.app/" target="_blank">Live Deno</a>
+🌍 <a href="https://rammurariportfolio.netlify.app/" target="_blank">Live Demo</a>
 
 
 
