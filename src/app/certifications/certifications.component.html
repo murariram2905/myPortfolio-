@@ -1,29 +1,35 @@
-<!-- src/app/certifications/certifications.component.html -->
-<div class="container my-5">
+<section class="cert-section">
   <h2 class="text-center mb-4">Certifications</h2>
-  <div class="row">
-    <div class="col-md-6 mx-auto">
-      <div class="card mb-3">
-        <div class="card-body">
-          <h5 class="card-title">JavaScript Developer Certification</h5>
-          <p class="card-text">Issued by [simplilearn Authority], [May 2025]</p>
-          <a href="https://www.simplilearn.com/skillup-certificate-landing?token=eyJjb3Vyc2VfaWQiOiIxNzI0I
-          iwiY2VydGlmaWNhdGVfdXJsIjoiaHR0cHM6XC9cL2NlcnRpZmljYXRlcy5zaW1wbGljZG4ubmV0XC9zaGFyZVwvODM2NjE1MV84Nz
-          IwMzMyMTc0NzczMTU5NDE0MC5wbmciLCJ1c2VybmFtZSI6Ik11cmFyaSBSYW1ha3Jpc2huYSJ9&utm_source=shared-certificate&utm_medium=lms&utm_
-          campaign=shared-certificate-promotion&referrer=https%3A%2F%2Flms.simplilearn.com%2Fcourses%2F4212%2FJavaScript-for-Beginners%
-          2Fcertificate%2Fdownload-skillup&%24web_only=true&_branch_match_id=1453299074749264974&_branch_referrer=H4sIAAAAAAAAA8soKSkot
-          tLXL87MLcjJ1EssKNDLyczL1k%2FVD3GpMM13C8goD0myrytKTUstKsrMS49PKsovL04tsvUBqkpN8cwDAMJDCIpBAAAA"
-           target="_blank" class="btn btn-primary">View Certificate</a>
-        </div>
+  <div class="cert-container">
+    <!-- JavaScript Developer -->
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">JavaScript Developer Certification</h5>
+        <img class="cert-img" [src]="path" alt="certification" />
+        <p class="card-text">Issued by Simplilearn, May 2025</p>
+        <a href="https://www.simplilearn.com/skillup-certificate-landing?token=..." target="_blank" class="btn btn-primary">View Certificate</a>
       </div>
-      <div class="card mb-3">
-        <div class="card-body">
-          <h5 class="card-title">Full-Stack Web Development</h5>
-          <p class="card-text">Issued by [Certifying Authority], [Month Year]</p>
-          <a href="https://lms.simplilearn.com/courses/4511/Introduction-to-Front-End-Development/(syllabus//certificate:certificate-
-          locked-new)?completion=false&cert_status=false&thumbnail=" target="_blank" class="btn btn-primary">View Certificate</a>
-        </div>
+    </div>
+
+    <!-- Full-Stack Web Development -->
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Full-Stack Web Development</h5>
+        <img class="cert-img" src="assets/ramMurari Front End Development certification.png" alt="certification" />
+        <p class="card-text">Issued by Simplilearn, May 2025</p>
+        <a href="https://lms.simplilearn.com/..." target="_blank" class="btn btn-primary">View Certificate</a>
+      </div>
+    </div>
+  
+
+   <!-- JavaScript Data Structures & Algorithms- -->
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">JavaScript Data Structures & Algorithms</h5>
+        <img class="cert-img" src="assets/js_dsa.png" alt="certification" />
+        <p class="card-text">Issued by Infosys Springboard, May 2025</p>
+        <a href="https://infosysspringboard.com/..." target="_blank" class="btn btn-primary">View Certificate</a>
       </div>
     </div>
   </div>
-</div>
+</section>

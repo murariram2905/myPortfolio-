@@ -1,17 +1,42 @@
+/* Parent container */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1rem 2rem;
+  background: #1e90ff;
+}
+
+/* Logo / Title */
+.header h2 {
+  color: white;
+  margin: 0;
+  font-family: 'calligraphic', cursive;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* subtle depth */
+}
+
+
+/* Navigation */
 nav {
-    background: #1e90ff;
-    padding: 1rem;
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
-  }
-  
-  
-  nav a {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-top: 0.5rem;
+}
+
+/* Nav links */
+nav a {
   text-decoration: none;
   position: relative;
-  color: white; /* or any color */
+  color: white;
   padding-bottom: 2px;
+  font-weight: 500;
 }
 
 nav a::after {
@@ -21,10 +46,56 @@ nav a::after {
   bottom: 0;
   height: 2px;
   width: 0;
-  background-color: white; /* underline color */
+  background-color: white;
   transition: width 0.3s ease;
 }
 
 nav a:hover::after {
   width: 100%;
 }
+
+/* Responsive: stack layout on small screens */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav {
+    justify-content: flex-start;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+}
+
+
+// nav {
+//     background: #1e90ff;
+//     padding: 1rem;
+//     display: flex;
+//     justify-content: center;
+//     gap: 2rem;
+//   }
+  
+  
+//   nav a {
+//   text-decoration: none;
+//   position: relative;
+//   color: white; /* or any color */
+//   padding-bottom: 2px;
+// }
+
+// nav a::after {
+//   content: '';
+//   position: absolute;
+//   left: 0;
+//   bottom: 0;
+//   height: 2px;
+//   width: 0;
+//   background-color: white; /* underline color */
+//   transition: width 0.3s ease;
+// }
+
+// nav a:hover::after {
+//   width: 100%;
+// }
